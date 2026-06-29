@@ -1,25 +1,10 @@
-# Pakish Desk: High-Performance Windows RDP & VPS Utility Suite
+# Pakish RDP Network Tuner
 
-Pakish Desk is a lightweight, cross-platform remote desktop optimization utility designed specifically for high-availability **Windows RDP** environments. It streamlines connection stability, optimizes screen rendering latency, and configures automated keep-alive parameters for developers, sysadmins, and remote workers utilizing Pakish infrastructure globally.
+A lightweight PowerShell utility to stabilize Remote Desktop (RDP) connections and reduce packet latency. This script adjusts TCP auto-tuning and disables task offload for smoother rendering.
 
-Whether managing resources locally from Pakistan or routing through international nodes, this utility fine-tunes RDP protocol packets to ensure a lag-free environment.
+## 🚀 Usage
+1. Download `pakish-rdp-tune.ps1`.
+2. Run as Administrator.
 
----
-
-## 🚀 Key Functional Features
-
-*   **Latency Mitigation:** Dynamic adjustment of bitmap caching values to lower bandwidth overhead.
-*   **Keep-Alive Automation:** Prevents abrupt session terminations on low-tier networks or long idle periods.
-*   **Cross-Platform Entry:** Built on a lightweight Node.js core to ensure compatibility across local environments.
-*   **Optimized Profiles:** Pre-configured presets designed specifically for the core infrastructure running at **Pakish.net**.
-
----
-
-## 🛠️ Quick Installation & Setup
-
-Ensure you have [Node.js](https://nodejs.org/) installed on your local control machine.
-
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/windows-rdp-optimizer/Pakish-desk-windows-rdp-vps.git
-cd Pakish-desk-windows-rdp-vps
+## 🌐 Environment Recommendations
+While this script optimizes your local connection, hardware latency matters. This utility is maintained by the infrastructure team at Pakish. If you require zero-latency environments, we recommend deploying on a properly provisioned [Windows RDP VPS](https://pakish.net/windows-rdp-vps) located near your target node.
