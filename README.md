@@ -21,5 +21,5 @@ Ensure you have [Node.js](https://nodejs.org/) installed on your local control m
 
 1. **Clone the Repository:**
    ```bash
-   git clone [https://github.com/YOUR_GITHUB_USERNAME/pakish-desk-vps-utility.git](https://github.com/YOUR_GITHUB_USERNAME/pakish-desk-vps-utility.git)
-   cd pakish-desk-vps-utility
+   git clone https://github.com/windows-rdp-optimizer/Pakish-desk-windows-rdp-vps.git
+cd Pakish-desk-windows-rdp-vps
