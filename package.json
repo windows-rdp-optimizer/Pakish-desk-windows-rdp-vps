@@ -1,0 +1,19 @@
+{
+  "name": "pakish-desk-vps-utility",
+  "version": "1.0.0",
+  "description": "Lightweight, cross-platform remote desktop optimization and automated connection utility for Pakish Windows RDP environments.",
+  "main": "server.js",
+  "keywords": [
+    "windows rdp",
+    "pakish desk",
+    "remote desktop utility",
+    "cheap rdp pakistan",
+    "vps optimization",
+    "remote management"
+  ],
+  "author": "Pakish Technical Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
